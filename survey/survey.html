@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="survey.css">
+<h1 id="title">Avengers Survey Form</h1>
+<p id="description">We love you 3000! Thank You.</p>
+<form id="survey-form">
+  <label id="name-label" for="name">
+  <p>Name</p>
+  <input id="name" type="text" required placeholder="type your good name">
+  </label>
+  <label id="email-label" for="email">
+  <p>E-mail</p>
+  <input id="email" type="email" required placeholder="type your email">
+  </label>
+  <label id="number-label" for="number">
+  <p>Age</p>
+  <input id="number" type="number" required placeholder="your age" min=4 max=50>
+  </label>
+  <br>
+  
+  
+    <p> Who's your favourite superhero:</p>
+  <select id="dropdown">
+    <option value="captain-america">Captain-america</option>
+    <option value="thor">Thor</option>
+    <option value="iron-man">Iron-man</option>
+    <option value="hulk">hulk</option>
+    <option value="hawkaye">Hawkaye</option>
+    
+  </select>
+  <p> Your favourite?</p>
+  
+  <input value="value1" type="radio" name="comics">Marvel<br>
+  <input value="value2" type="radio" name="comics">DC<br>
+  
+  <p>What's your favourite list of movies look like?</p>
+  <input type="checkbox" value="1" name="movies">Avengers<br>
+  <input type="checkbox" value="2" name="movies">Age of ultron<br>
+  <input type="checkbox" value="3" name="movies">Infinity war<br>
+  <input type="checkbox" value="4" name="movies">Civil war<br>
+  <input type="checkbox" value="5" name="movies">Endgame<br>
+  <input type="checkbox" value="6" name="movies">Thor<br>
+  <input type="checkbox" value="7" name="movies">The winter soldier<br>
+  <input type="checkbox" value="8" name="movies">Ragnarok<br>
+  <input type="checkbox" value="9" name="movies">Far from home<br>
+  
+  
+  <p>Add your additional comments here...</p><br>
+  <textarea id="comment" rows="10" cols="60" font-size: 30px ></textarea><br>
+  
+  <button id="submit" type="submit">Submit</button>
+  </form>
+  

@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+body{
+   text-align: center;
+   background-color: #93a1a7;
+  
+}
+h1{
+  font-size: 50px;
+  font-family: 'shadows into light';
+}
+
+#description
+{
+  text-align: center;
+  font-family: 'shadows into light';
+  font-size: 35px;
+}
+
+p{
+  font-family: 'shadows into light';
+  font-size: 30px;
+  text-align: center;
+}
+#survey-form{
+   text-align: center;
+}
+   
